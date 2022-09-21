@@ -21,7 +21,7 @@ def sorted_string(my_string):
     even_string = ""  # initialize empty strings
     odd_string = ""
 
-    for i in (my_string):
+    for i in my_string:
         if int(i) % 2 == 0:       # Convert each charater to int and then checks for odd/even
             even_string += str(i)
         else:
